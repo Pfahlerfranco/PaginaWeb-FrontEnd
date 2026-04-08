@@ -1,0 +1,38 @@
+/* Reset básico profesional */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Imágenes */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.text-2xl {
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
