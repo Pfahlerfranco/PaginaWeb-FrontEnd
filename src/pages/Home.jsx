@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SplitText from "../component/SplitText";
 import FloatingLines from "../component/FloatingLines";
 import "../styles/home.css";
@@ -21,13 +22,19 @@ export default function Home() {
 
         <SplitText
           text="<Franco Pfahler/>"
+          className="hero-title"
           delay={80}
           duration={1.2}
         />
 
         <p className="hero-subtitle">
-          Backend Developer — APIs, Databases & Web Applications
+          Developer Full Stack Jr — APIs, Databases & Web Applications
         </p>
+
+        <div className="hero-buttons">
+          <Link to="/portfolio" className="hero-btn-primary">Ver proyectos</Link>
+          <Link to="/contact" className="hero-btn-secondary">Contactame</Link>
+        </div>
 
       </div>
 

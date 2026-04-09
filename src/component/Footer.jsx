@@ -15,7 +15,7 @@ export default function Footer() {
           </h2>
 
           <p>
-            Desarrollo aplicaciones web modernas, APIs y soluciones
+            Desarrollo de Aplicaciones Web modernas, APIs y soluciones
             escalables. Enfocado en crear productos eficientes
             y experiencias digitales de calidad.
           </p>
@@ -43,15 +43,16 @@ export default function Footer() {
           <p>Buenos Aires, Argentina</p>
 
           <div className="socials">
-            <a href="#">
+            {/* TODO: Reemplazá "#" con tus URLs reales */}
+            <a href="https://github.com/Pfahlerfranco" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <FaGithub />
             </a>
 
-            <a href="#">
+            <a href="https://www.linkedin.com/in/franco-pfahler/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <FaLinkedin />
             </a>
 
-            <a href="#">
+            <a href="Pfahlerfranco@email.com" aria-label="Email">
               <FaEnvelope />
             </a>
           </div>
