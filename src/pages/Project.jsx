@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { FaGithub, FaExternalLinkAlt, FaArrowLeft } from "react-icons/fa";
 import { projects } from "./Portfolio";
+import Carousel from "../component/Carousel";
 import "../styles/project.css";
 
 export default function Project() {
@@ -19,6 +20,10 @@ export default function Project() {
       </div>
     );
   }
+
+  const imageItems = project.images
+    ? project.images.map((url, i) => ({ id: i, image: url, title: `${project.title} - ${i + 1}` }))
+    : [];
 
   return (
     <div className="project-page">
@@ -47,11 +52,25 @@ export default function Project() {
           </div>
         </div>
 
+        {/* GALLERY */}
+        {imageItems.length > 0 && (
+          <div className="project-detail-gallery">
+            <Carousel
+              items={imageItems}
+              baseWidth="100%"
+              autoplay
+              autoplayDelay={3000}
+              pauseOnHover={false}
+              loop
+              round={false}
+            />
+          </div>
+        )}
+
         {/* DESCRIPTION */}
         <div className="project-detail-description">
           <h2>Descripción</h2>
           <p>{project.description}</p>
-          {/* TODO: Podés agregar más detalles del proyecto aquí */}
         </div>
 
         {/* TECH STACK */}

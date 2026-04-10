@@ -4,36 +4,56 @@ import "../styles/portfolio.css";
 
 export const projects = [
   {
-    id: "api-rest-nodejs",
-    title: "REST API con Node.js",
-    description: "API RESTful construida con Express.js y PostgreSQL. Incluye autenticación JWT, validación de datos, manejo de errores y documentación Swagger.",
-    tags: ["Node.js", "Express", "PostgreSQL", "JWT"],
-    github: "#", // TODO: tu-repo-github
-    demo: "#",   // TODO: tu-url-demo (o null si no hay)
+    id: "paginaWeb-FrontEnd",
+    title: "<FP> Studio",
+    description: "Pagina Web personal para mi Portafolio, desarrollada con React. Diseño responsivo y optimizado para SEO.",
+    tags: ["React.js", "React Router", "React Developer Tools"],
+    github: "#", 
+    demo: "#",   
+    images: [
+      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1627873649417-af542667a3d7?w=800&h=400&fit=crop",
+    ],
   },
   {
-    id: "sistema-gestion",
-    title: "Sistema de Gestión",
-    description: "Aplicación web full-stack para gestión de inventario. Backend en Python con FastAPI, frontend en React y base de datos MySQL.",
-    tags: ["Python", "FastAPI", "React", "MySQL"],
-    github: "#", // TODO: tu-repo-github
-    demo: "#",   // TODO: tu-url-demo
+    id: "administracion-web",
+    title: "Administracion Web UNAHUR",
+    description: "Aplicación web full-stack para gestión de agendas, prestadores, afiliados y consultas . Backend en Nodes.js con Express, frontend en React y base de datos PosgresSQL.",
+    tags: ["Node.js", "Express", "React", "PostgreSQL"],
+    github: "https://github.com/DesApp-2025c2-Grupo1", 
+    demo: "#",   
+    images: [
+      "https://images.unsplash.com/photo-1551531623-df8f1629ae3d?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1526374965328-7f5ae4e8b908?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1460925895917-aeb19be489c7?w=800&h=400&fit=crop",
+    ],
   },
   {
-    id: "bot-telegram",
-    title: "Bot de Telegram",
-    description: "Bot automatizado con integración a APIs externas. Maneja comandos, envía notificaciones y procesa datos en tiempo real usando webhooks.",
-    tags: ["Python", "Telegram API", "Docker", "Redis"],
-    github: "#", // TODO: tu-repo-github
+    id: "Api-AntiSocial-MongoDB",
+    title: "Api AntiSocial MongoDB",
+    description: "API para gestión de contenido anti-social con integración a MongoDB. Incluye autenticación, validación de datos y manejo de errores.",
+    tags: ["Node.js", "Express", "MongoDB", "JWT"],
+    github: "https://github.com/Pfahlerfranco/Api-AntiSocial-MongoDB", 
     demo: null,
+    images: [
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1611532736579-6b16e2b50449?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1604386439900-59ef12a723f7?w=800&h=400&fit=crop",
+    ],
   },
   {
-    id: "ecommerce-api",
-    title: "E-commerce API",
-    description: "Backend completo para tienda online con gestión de productos, carrito, pedidos y pagos. Desplegado en AWS con contenedores Docker.",
+    id: "automotoresDamian-api",
+    title: "E-commerce Automotores Damian e Hijo",
+    description: "PROXIMAMENTE... Pagina Web completa para tienda online con gestión de productos, carrito, pedidos y pagos.",
     tags: ["Node.js", "MongoDB", "Docker", "AWS"],
-    github: "#", // TODO: tu-repo-github
-    demo: "#",   // TODO: tu-url-demo
+    github: "#", 
+    demo: "#",   
+    images: [
+      "https://images.unsplash.com/photo-1460925895917-aeb19be489c7?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1526373965369-ea8ac28bccf2?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1507238691515-186a50e1cae8?w=800&h=400&fit=crop",
+    ],
   },
 ];
 

@@ -3,10 +3,10 @@ import emailjs from "@emailjs/browser";
 import { FaGithub, FaLinkedin, FaEnvelope, FaPaperPlane } from "react-icons/fa";
 import "../styles/contact.css";
 
-// TODO: Reemplazá con tus credenciales de EmailJS (https://www.emailjs.com)
-const EMAILJS_SERVICE_ID  = "TU_SERVICE_ID";
-const EMAILJS_TEMPLATE_ID = "TU_TEMPLATE_ID";
-const EMAILJS_PUBLIC_KEY  = "TU_PUBLIC_KEY";
+
+const EMAILJS_SERVICE_ID  = "franzierserviceweb";
+const EMAILJS_TEMPLATE_ID = "template_k51ya5c";
+const EMAILJS_PUBLIC_KEY  = "5MX2zFHfh-kt0lB7M";
 
 export default function Contact() {
   const formRef = useRef(null);
