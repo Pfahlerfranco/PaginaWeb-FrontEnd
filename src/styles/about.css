@@ -133,7 +133,7 @@
 /* TABLET */
 @media (max-width: 768px) {
   .about-page {
-    padding: 60px 32px;
+    padding: 80px 32px;
   }
 
   .about-container {
@@ -176,7 +176,7 @@
 /* MOBILE */
 @media (max-width: 480px) {
   .about-page {
-    padding: 40px 16px;
+    padding: 80px 16px;
   }
 
   .about-header {

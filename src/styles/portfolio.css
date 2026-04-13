@@ -123,7 +123,7 @@
 /* TABLET */
 @media (max-width: 768px) {
   .portfolio-page {
-    padding: 60px 32px;
+    padding: 80px 32px;
   }
 
   .portfolio-container {
@@ -165,7 +165,7 @@
 /* MOBILE */
 @media (max-width: 480px) {
   .portfolio-page {
-    padding: 40px 16px;
+    padding: 80px 16px;
   }
 
   .portfolio-header {
