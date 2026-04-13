@@ -48,7 +48,7 @@ export default function About() {
         {/* CV */}
         <section className="about-cv">
           {/* Cuando quiera actualizar el CV, voy a Public */}
-          <a href="/cv_FrancoPfahler_Desarrollador2026.pdf" download className="cv-btn">
+          <a href="/FPStudio/cv_FrancoPfahler_Desarrollador2026.pdf" download className="cv-btn">
             <FaDownload />
             Descargar CV
           </a>
