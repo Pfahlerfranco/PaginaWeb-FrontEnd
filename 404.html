@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset=utf-8 />
-    <title>FPStudio - Portfolio</title>
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // https://github.com/rafgraph/spa-github-pages
-      var pathSegmentsToKeep = 1;
-
+    <meta charset="utf-8">
+    <title>FPStudio</title>
+    <script>
+      // Encode the path as a query string so GitHub Pages redirects to index.html
+      // without causing an infinite loop
+      var segmentCount = 1;
       var l = window.location;
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        '/FPStudio/' + l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/') +
-        (l.search ? l.search : '') +
-        (l.hash ? l.hash : '')
+        l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
       );
     </script>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
